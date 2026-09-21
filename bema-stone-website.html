@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bema Stone | Travertine and marble pavers, tiles and copings for pool decks and driveways</title>
+<meta name="description" content="Travertine, marble and porcelain pavers, tiles, copings and custom bullnose from our Tampa, Florida warehouse. Delivered nationwide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --deep:#0B3A44;
+  --pool:#1B7C8A;
+  --water:#7CCBD3;
+  --foam:#DDF1F2;
+  --ink:#1B2422;
+  --stone:#EDECE7;
+  --stone-2:#E1DFD7;
+  --paper:#F7F6F2;
+  --walnut:#7B5A40;
+  --line:#CBC8BD;
+  --muted:#56605C;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Figtree","Segoe UI",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--stone);color:var(--ink);font:400 1.0625rem/1.6 var(--body);-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);line-height:1.08;letter-spacing:-.02em;margin:0}
+h2{font-size:clamp(1.9rem,3.6vw,2.9rem);font-weight:700}
+h3{font-size:1.2rem;font-weight:700}
+p{margin:0}
+:focus-visible{outline:3px solid var(--pool);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.lede{font-size:1.125rem;color:var(--muted);max-width:60ch}
+section{padding:96px 0}
+.sec-head{display:grid;gap:14px;margin-bottom:44px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border-radius:6px;font:600 1rem var(--body);text-decoration:none;border:2px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn-water{background:var(--water);color:var(--deep)}
+.btn-water:hover{background:#9adce3}
+.btn-ghost{border-color:rgba(255,255,255,.55);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.btn-deep{background:var(--deep);color:#fff}
+.btn-deep:hover{background:#0e4b58}
+
+/* top bar + header */
+.topbar{background:var(--deep);color:#d7eef0;font-size:.9rem}
+.topbar .wrap{display:flex;justify-content:space-between;gap:16px;padding-top:9px;padding-bottom:9px;flex-wrap:wrap}
+.topbar a{font-weight:600;color:#fff}
+header.site{position:sticky;top:0;z-index:50;background:var(--stone);border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;font:800 1.35rem var(--display);letter-spacing:-.02em}
+.logo small{display:block;font:500 .72rem var(--body);letter-spacing:0;color:var(--muted);margin-top:-2px}
+nav.main ul{list-style:none;display:flex;gap:28px;margin:0;padding:0;align-items:center}
+nav.main a{text-decoration:none;font-weight:500}
+nav.main a:hover{color:var(--pool)}
+.menu-btn{display:none;background:none;border:1px solid var(--line);border-radius:6px;min-height:44px;padding:0 14px;font:600 .95rem var(--body);cursor:pointer}
+
+/* hero */
+.hero{position:relative;overflow:hidden;background:#3a362f;padding:72px 0 210px}
+#field{position:absolute;inset:0}
+#field svg{width:100%;height:100%}
+.s{animation:lay .55s cubic-bezier(.2,.7,.2,1) both;transform-box:fill-box;transform-origin:center}
+@keyframes lay{from{opacity:0;transform:translateY(-12px) scale(.94)}}
+.hero-card{position:relative;z-index:2;background:var(--deep);color:#fff;max-width:580px;padding:48px 44px 44px;margin-left:clamp(0px,5vw,72px)}
+.hero-card h1{font-size:clamp(2.3rem,4.6vw,3.7rem);font-weight:800}
+.hero-card p{color:#cfe7ea;margin-top:20px;max-width:46ch}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.hero-note{font-size:.95rem;margin-top:22px!important;color:#9fcdd2!important}
+.pool{position:absolute;left:0;right:0;bottom:0;height:168px;z-index:1}
+.coping{height:34px;background:linear-gradient(#f3f1eb,#d8d4c8);border-radius:0 0 16px 16px;box-shadow:0 -10px 24px rgba(0,0,0,.28)}
+.mosaic{height:14px;background:
+  linear-gradient(rgba(255,255,255,.18),rgba(255,255,255,0)),
+  repeating-linear-gradient(90deg,#57bcc8 0 14px,#3f9fae 14px 28px,#66c6d0 28px 42px,#3a97a6 42px 56px)}
+.water{height:calc(100% - 48px);background:
+  repeating-linear-gradient(102deg,rgba(255,255,255,.08) 0 2px,transparent 2px 54px),
+  linear-gradient(#2b98a8,#0d5665)}
+
+/* stones */
+.stone-grid{display:grid;grid-template-columns:1.35fr 1fr;grid-template-rows:1fr 1fr;gap:20px}
+.tile{position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:280px;border:1px solid var(--line);background:var(--paper);overflow:hidden}
+.tile.big{grid-row:span 2;min-height:560px}
+.tile .sw{position:absolute;inset:0 0 auto 0;bottom:0}
+.tile .sw svg{width:100%;height:100%}
+.tile .txt{position:relative;background:var(--paper);padding:22px 24px 24px;border-top:1px solid var(--line)}
+.tile .txt p{color:var(--muted);margin:8px 0 14px;max-width:50ch;font-size:1rem}
+.tile .txt a{font-weight:600;color:var(--pool);text-decoration-thickness:2px;text-underline-offset:4px}
+
+/* product browser */
+#products{background:var(--stone-2)}
+.filters{display:grid;gap:14px;margin-bottom:28px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.chips b{font:600 .95rem var(--body);margin-right:8px;min-width:76px}
+.chip{min-height:42px;padding:0 18px;border:1px solid var(--line);background:var(--paper);border-radius:100px;font:500 .95rem var(--body);cursor:pointer;color:var(--ink)}
+.chip:hover{border-color:var(--pool)}
+.chip[aria-pressed="true"]{background:var(--deep);border-color:var(--deep);color:#fff}
+.count{color:var(--muted);font-size:.95rem;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(228px,1fr));gap:20px}
+.card{background:var(--paper);border:1px solid var(--line);display:flex;flex-direction:column}
+.card .sw{aspect-ratio:4/3;background:var(--stone-2)}
+.card .sw svg{width:100%;height:100%}
+.card .meta{padding:14px 16px 14px;flex:1}
+.card h3{font-size:1.02rem;line-height:1.25}
+.card p{color:var(--muted);font-size:.92rem;margin-top:6px}
+.add{min-height:46px;border:0;border-top:1px solid var(--line);background:transparent;font:600 .95rem var(--body);color:var(--pool);cursor:pointer}
+.add:hover{background:var(--foam)}
+.add[aria-pressed="true"]{background:var(--deep);color:#fff}
+
+/* fabrication */
+#fabrication{background:var(--deep);color:#fff}
+#fabrication .lede{color:#b9dade}
+.fab{display:grid;grid-template-columns:1fr 1.15fr;gap:56px;align-items:start}
+.fab-controls{display:grid;gap:22px;margin-top:30px}
+.seg{display:flex;gap:8px;flex-wrap:wrap}
+.seg b{display:block;width:100%;font:600 .95rem var(--body);color:#b9dade}
+.seg button{min-height:44px;padding:0 18px;border-radius:6px;border:1px solid rgba(255,255,255,.35);background:transparent;color:#fff;font:500 .97rem var(--body);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--water);border-color:var(--water);color:var(--deep);font-weight:600}
+#edgeText{color:#d3ecef;max-width:46ch;min-height:4.8em}
+.stage{background:var(--stone);color:var(--ink);padding:28px;display:grid;grid-template-columns:1.25fr 1fr;gap:20px;align-items:center}
+.stage figure{margin:0}
+.stage figcaption{font-size:.9rem;color:var(--muted);margin-top:6px}
+.drains{margin-top:72px;padding-top:56px;border-top:1px solid rgba(255,255,255,.2);display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.drains p{color:#c6e2e5;margin-top:14px;max-width:52ch}
+
+/* estimator + service */
+.est{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);background:var(--paper)}
+.est form,.est .out{padding:36px}
+.est .out{background:var(--foam);display:flex;flex-direction:column;justify-content:center;gap:12px;border-left:1px solid var(--line)}
+.field{display:grid;gap:6px;margin-bottom:18px}
+label{font-weight:600;font-size:.95rem}
+input,select,textarea{width:100%;min-height:48px;padding:10px 14px;border:1px solid #a9a69b;border-radius:4px;background:#fff;font:400 1rem var(--body);color:var(--ink)}
+textarea{min-height:110px;resize:vertical}
+.out .big{font:800 clamp(2.4rem,5vw,3.6rem) var(--display);letter-spacing:-.03em;color:var(--deep);line-height:1}
+.out small{color:var(--muted)}
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:72px;border-top:2px solid var(--ink)}
+.svc>div{padding:26px 28px 0 0}
+.svc>div+div{padding-left:28px;border-left:1px solid var(--line)}
+.svc p{color:var(--muted);margin-top:10px}
+.svc a{font-weight:600;color:var(--pool)}
+
+/* quote */
+#quote{background:var(--stone-2)}
+.quote-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
+.qlist{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 4px}
+.qlist .empty{color:var(--muted);font-size:.95rem}
+.qchip{display:inline-flex;align-items:center;gap:8px;background:var(--deep);color:#fff;border-radius:100px;padding:6px 6px 6px 14px;font-size:.9rem}
+.qchip button{width:28px;height:28px;border-radius:50%;border:0;background:rgba(255,255,255,.18);color:#fff;font-size:1rem;line-height:1;cursor:pointer}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.done{display:none;background:var(--paper);border:1px solid var(--line);padding:32px}
+.done.show{display:block}
+.done textarea{margin:16px 0;font-size:.92rem;min-height:190px}
+.qbar{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:60;background:var(--deep);color:#fff;text-decoration:none;font-weight:600;padding:14px 24px;border-radius:100px;box-shadow:0 8px 24px rgba(0,0,0,.28);display:none}
+.qbar.show{display:block}
+
+/* faq */
+details{border-top:1px solid var(--line);padding:0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;padding:22px 48px 22px 0;font:600 1.15rem var(--display);position:relative;letter-spacing:-.01em}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:6px;top:50%;transform:translateY(-50%);font:400 1.8rem var(--body);color:var(--pool)}
+details[open] summary::after{content:"\2212"}
+details p{padding:0 48px 24px 0;color:var(--muted);max-width:70ch}
+.faq{max-width:820px}
+
+footer{background:var(--ink);color:#c7cfcc;padding:64px 0 40px}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+footer h3{color:#fff;font-size:1.05rem;margin-bottom:14px}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+footer a{text-decoration:none}
+footer a:hover{color:#fff;text-decoration:underline}
+footer .fine{margin-top:44px;padding-top:22px;border-top:1px solid rgba(255,255,255,.15);font-size:.9rem;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+@media (max-width:960px){
+  section{padding:72px 0}
+  nav.main{display:none;position:absolute;top:72px;left:0;right:0;background:var(--stone);border-bottom:1px solid var(--line);padding:12px 24px 22px}
+  nav.main.open{display:block}
+  nav.main ul{flex-direction:column;align-items:flex-start;gap:6px}
+  nav.main a{display:block;padding:10px 0}
+  .menu-btn{display:block}
+  header.site .btn{display:none}
+  .stone-grid{grid-template-columns:1fr;grid-template-rows:auto}
+  .tile.big{grid-row:auto;min-height:420px}
+  .fab,.drains,.quote-grid,.est{grid-template-columns:1fr}
+  .est .out{border-left:0;border-top:1px solid var(--line)}
+  .svc{grid-template-columns:1fr}
+  .svc>div+div{padding-left:0;border-left:0;border-top:1px solid var(--line);margin-top:26px}
+  .stage{grid-template-columns:1fr}
+  footer .cols{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  .wrap{padding:0 18px}
+  .hero{padding:0 0 190px}
+  .hero-card{margin:0;padding:36px 22px 34px;max-width:none}
+  #field{top:0;bottom:0}
+  .two{grid-template-columns:1fr}
+  .topbar .wrap>span:last-child{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  .s{animation:none}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<!-- Shared SVG definitions -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <linearGradient id="bull" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".28"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>Product information line <a href="tel:+18132434900">813-243-4900</a></span>
+    <span>Showroom and warehouse, 4900 W Rio Vista Ave, Tampa FL 33634</span>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Bema Stone home">
+      <svg width="38" height="38" viewBox="0 0 38 38" aria-hidden="true">
+        <rect x="1" y="1" width="20" height="20" rx="2" fill="#1B7C8A"/>
+        <rect x="23" y="1" width="14" height="20" rx="2" fill="#CDBB9A"/>
+        <rect x="1" y="23" width="14" height="14" rx="2" fill="#B8B4A8"/>
+        <rect x="17" y="23" width="20" height="14" rx="2" fill="#7B5A40"/>
+      </svg>
+      <span>Bema Stone<small>Natural stone, Tampa FL</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">Menu</button>
+    <nav class="main" id="mainNav" aria-label="Main">
+      <ul>
+        <li><a href="#stones">Stones</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#fabrication">Custom bullnose</a></li>
+        <li><a href="#estimate">Estimator</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#quote">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-deep" href="#quote">Get a quote</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" style="padding-bottom:210px">
+  <div id="field" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="hero-card">
+      <h1>Travertine and marble for pool decks and driveways</h1>
+      <p>Pavers, tiles, copings and custom bullnose, cut and shipped from our Tampa warehouse. Design help is free, in the showroom or by phone.</p>
+      <div class="hero-actions">
+        <a class="btn btn-water" href="#quote">Get a quote</a>
+        <a class="btn btn-ghost" href="#products">Browse pavers</a>
+      </div>
+      <p class="hero-note">Delivered nationwide, fully insured.</p>
+    </div>
+  </div>
+  <div class="pool" aria-hidden="true">
+    <div class="coping"></div>
+    <div class="mosaic"></div>
+    <div class="water"></div>
+  </div>
+</section>
+
+<!-- STONES -->
+<section id="stones">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Choose your stone</h2>
+      <p class="lede">Every stone below comes as pavers for the deck, tiles for the walls and copings for the pool edge, so the whole project can match.</p>
+    </div>
+    <div class="stone-grid">
+      <div class="tile big">
+        <div class="sw" data-sw="travertine|#d6c5a3|11"></div>
+        <div class="txt">
+          <h3>Travertine</h3>
+          <p>The classic pool deck stone. Natural pitted texture in ivory, silver, walnut and noce, in tumbled and vein cut finishes.</p>
+          <a href="#products" data-jump="Travertine">See travertine</a>
+        </div>
+      </div>
+      <div class="tile">
+        <div class="sw" data-sw="marble|#d5d3cc|23"></div>
+        <div class="txt">
+          <h3>Marble</h3>
+          <p>Leathered and tumbled pavers in white, silver and grey.</p>
+          <a href="#products" data-jump="Marble">See marble</a>
+        </div>
+      </div>
+      <div class="tile">
+        <div class="sw" data-sw="wood|#a8845f|5"></div>
+        <div class="txt">
+          <h3>Porcelain</h3>
+          <p>Low-maintenance tiles and pavers, from 24x24 to wood-look planks.</p>
+          <a href="#products" data-jump="Porcelain">See porcelain</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Find a product</h2>
+      <p class="lede">Filter by what you are building, then add the stones you like to your quote list. Pricing is given per project, so nothing here goes in a cart.</p>
+    </div>
+    <div class="filters">
+      <div class="chips" id="catChips" role="group" aria-label="Product type"><b>Type</b></div>
+      <div class="chips" id="matChips" role="group" aria-label="Material"><b>Material</b></div>
+    </div>
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<!-- FABRICATION -->
+<section id="fabrication">
+  <div class="wrap">
+    <div class="fab">
+      <div>
+        <h2>Custom bullnose, cut in our own facility</h2>
+        <p class="lede" style="margin-top:16px">We run an industrial coping machine, so we can turn 1.25" and 2" travertine and marble pavers into finished edges for a backyard, steps, pool edge or spa.</p>
+        <div class="fab-controls">
+          <div class="seg" id="edgeSeg" role="group" aria-label="Edge profile">
+            <b>Edge profile</b>
+          </div>
+          <div class="seg" id="thickSeg" role="group" aria-label="Paver thickness">
+            <b>Thickness</b>
+          </div>
+          <div class="seg" id="sideSeg" role="group" aria-label="Number of shaped sides" hidden>
+            <b>Shaped sides</b>
+          </div>
+        </div>
+        <p id="edgeText" aria-live="polite" style="margin-top:26px"></p>
+      </div>
+      <div class="stage" id="stage"></div>
+    </div>
+
+    <div class="drains">
+      <div>
+        <h2 style="font-size:clamp(1.6rem,2.8vw,2.3rem)">Drains cut from the same stone</h2>
+        <p>Travertine and marble drains give the deck one continuous look. The standard size is 6x12. If your project needs a custom size, we can make it. Ask your account specialist.</p>
+        <p><a class="btn btn-water" href="#quote" style="margin-top:14px">Ask about drains</a></p>
+      </div>
+      <svg viewBox="0 0 300 160" role="img" aria-label="Illustration of a 6 by 12 inch stone drain">
+        <rect x="20" y="20" width="260" height="120" rx="6" fill="#d6c5a3"/>
+        <rect x="20" y="20" width="260" height="120" rx="6" filter="url(#grain)" opacity=".2" style="mix-blend-mode:multiply"/>
+        <g fill="#233230">
+          <rect x="46" y="42" width="208" height="9" rx="4.5"/>
+          <rect x="46" y="60" width="208" height="9" rx="4.5"/>
+          <rect x="46" y="78" width="208" height="9" rx="4.5"/>
+          <rect x="46" y="96" width="208" height="9" rx="4.5"/>
+          <rect x="46" y="114" width="208" height="9" rx="4.5"/>
+        </g>
+        <text x="150" y="154" text-anchor="middle" font-family="Figtree,sans-serif" font-size="12" fill="#b9dade">Standard 6x12</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ESTIMATOR + SERVICE -->
+<section id="estimate">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>How much stone do I need?</h2>
+      <p class="lede">Enter your area and we add extra for cuts and breakage. Your account specialist will confirm the final quantity.</p>
+    </div>
+    <div class="est">
+      <form id="estForm" onsubmit="return false">
+        <div class="field">
+          <label for="area">Area to cover (sq ft)</label>
+          <input id="area" type="number" min="1" step="1" value="400" inputmode="numeric">
+        </div>
+        <div class="field">
+          <label for="size">Paver size</label>
+          <select id="size">
+            <option value="1">12x12 in</option>
+            <option value="2" selected>12x24 in</option>
+            <option value="2.667">16x24 in</option>
+            <option value="4">24x24 in</option>
+          </select>
+        </div>
+        <div class="field" style="margin-bottom:0">
+          <label for="waste">Extra for cuts and breakage</label>
+          <select id="waste">
+            <option value=".05">5% (simple, straight layout)</option>
+            <option value=".10" selected>10% (typical)</option>
+            <option value=".15">15% (curves or angled cuts)</option>
+          </select>
+        </div>
+      </form>
+      <div class="out" aria-live="polite">
+        <small>Order about</small>
+        <div class="big" id="estArea">440 sq ft</div>
+        <p id="estPieces">About 220 pieces of 12x24 in.</p>
+        <p><button type="button" class="btn btn-deep" id="useEst">Use this in my quote</button></p>
+      </div>
+    </div>
+
+    <div class="svc">
+      <div>
+        <h3>Delivered nationwide</h3>
+        <p>Our shipping department sends orders across the country at competitive prices, fast, and insured.</p>
+      </div>
+      <div>
+        <h3>Free design service</h3>
+        <p>Talk through your layout with a designer in our showroom or over the phone. There is no charge.</p>
+      </div>
+      <div>
+        <h3>Online catalog</h3>
+        <p>We watch the tile and paver industry worldwide for selective and exclusive products. <a href="https://www.bemastone.com/BEMA-CATALOG/" target="_blank" rel="noopener">Open the catalog</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section id="quote">
+  <div class="wrap quote-grid">
+    <div>
+      <h2>Get a quote</h2>
+      <p class="lede" style="margin-top:16px">Tell us about the project and the stones you like. A specialist will price it and help with layout.</p>
+      <div style="margin-top:32px;display:grid;gap:6px">
+        <b>Prefer to talk?</b>
+        <a href="tel:+18132434900" style="font:800 1.8rem var(--display);letter-spacing:-.02em;text-decoration:none;color:var(--deep)">813-243-4900</a>
+        <span style="color:var(--muted)">4900 W Rio Vista Ave, Tampa FL 33634</span>
+      </div>
+    </div>
+    <div>
+      <form id="quoteForm" novalidate>
+        <div class="field">
+          <label>Your quote list</label>
+          <div class="qlist" id="qlist"></div>
+          <a href="#products" style="font-size:.95rem;color:var(--pool);font-weight:600">Add more products</a>
+        </div>
+        <div class="two">
+          <div class="field"><label for="qName">Name</label><input id="qName" required autocomplete="name"></div>
+          <div class="field"><label for="qPhone">Phone</label><input id="qPhone" type="tel" required autocomplete="tel"></div>
+        </div>
+        <div class="two">
+          <div class="field"><label for="qEmail">Email</label><input id="qEmail" type="email" autocomplete="email"></div>
+          <div class="field"><label for="qZip">City or ZIP for delivery</label><input id="qZip" autocomplete="postal-code"></div>
+        </div>
+        <div class="two">
+          <div class="field">
+            <label for="qType">Project</label>
+            <select id="qType">
+              <option>Pool deck</option><option>Driveway</option><option>Patio or walkway</option>
+              <option>Steps and coping</option><option>Commercial project</option><option>Something else</option>
+            </select>
+          </div>
+          <div class="field"><label for="qArea">Approximate area (sq ft)</label><input id="qArea" type="number" min="0" inputmode="numeric"></div>
+        </div>
+        <div class="field"><label for="qNotes">Anything else we should know</label><textarea id="qNotes"></textarea></div>
+        <p id="qError" role="alert" style="color:#9b2c1d;font-weight:600;margin-bottom:12px" hidden>Add your name and a phone number so we can reach you.</p>
+        <button class="btn btn-deep" type="submit">Request my quote</button>
+      </form>
+      <div class="done" id="done" tabindex="-1">
+        <h3 id="doneTitle">Your request is ready</h3>
+        <p id="doneMsg" style="color:var(--muted);margin-top:8px"></p>
+        <textarea id="summary" readonly aria-label="Quote request summary"></textarea>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <button class="btn btn-deep" type="button" id="copyBtn">Copy request</button>
+          <a class="btn btn-deep" style="background:transparent;color:var(--deep);border-color:var(--deep)" href="tel:+18132434900">Call 813-243-4900</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head"><h2>Questions we hear often</h2></div>
+    <div class="faq">
+      <details><summary>Do you ship outside Florida?</summary><p>Yes. We deliver nationwide with insured shipping. Give us your city or ZIP in the quote request and we will include delivery.</p></details>
+      <details><summary>Can I see the stone in person?</summary><p>Our showroom and warehouse is at 4900 W Rio Vista Ave in Tampa. Designer service is free there and over the phone.</p></details>
+      <details><summary>Which stone should I choose for a pool deck?</summary><p>Travertine and marble pavers are our main pool deck lines, and porcelain is a low-maintenance alternative. Finish, colour, sun exposure and sealing all matter, so talk it through with a designer before you decide.</p></details>
+      <details><summary>Can you make custom bullnose?</summary><p>Yes. We fabricate bullnose in our own facility on 1.25" and 2" thick travertine and marble pavers, including double and triple sided pieces for steps, corners and spa edges.</p></details>
+      <details><summary>Do you make stone drains?</summary><p>Yes, in travertine and marble. The standard size is 6x12, and custom sizes are available.</p></details>
+      <details><summary>How much extra should I order?</summary><p>Most projects order about 10% more than the measured area to cover cuts and breakage. Use the estimator above, and your account specialist will check the final number.</p></details>
+      <details><summary>How do I get pricing?</summary><p>Price depends on the stone, finish and quantity. Add products to your quote list and send the request, or call the product information line.</p></details>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h3>Bema Stone LLC</h3>
+        <p style="max-width:38ch">Travertine, marble and porcelain tiles, pavers and copings for pool decks and driveways.</p>
+        <p style="margin-top:14px">Showroom and warehouse<br>4900 W Rio Vista Ave<br>Tampa FL 33634<br><a href="tel:+18132434900">813-243-4900</a></p>
+      </div>
+      <div>
+        <h3>Products</h3>
+        <ul>
+          <li><a href="#products" data-cat="Pavers">Pavers</a></li>
+          <li><a href="#products" data-cat="Tiles">Tiles</a></li>
+          <li><a href="#products" data-cat="Copings">Copings</a></li>
+          <li><a href="#products" data-cat="Decoratives">Decoratives</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#fabrication">Custom bullnose</a></li>
+          <li><a href="#estimate">Estimator</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#quote">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fine"><span>Copyright 2026 Bema Stone LLC</span><span>Stone colours on this page are illustrations. Ask for samples to see the real material.</span></div>
+  </div>
+</footer>
+
+<a href="#quote" class="qbar" id="qbar"></a>
+
+<script>
+/* ---------- config ---------- */
+// To receive quote requests, put a form endpoint URL here (Formspree, Getform, your own API).
+// The page will POST the request as JSON. Leave empty to show a copy-and-call summary instead.
+const SUBMIT_ENDPOINT = "";
+
+/* ---------- helpers ---------- */
+const $ = (s, r=document) => r.querySelector(s);
+function rng(seed){let a=seed>>>0;return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function hash(str){let h=2166136261;for(let i=0;i<str.length;i++){h^=str.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0}
+function shade(hex,amt){const n=parseInt(hex.slice(1),16);let r=(n>>16)+amt,g=(n>>8&255)+amt,b=(n&255)+amt;const c=v=>Math.max(0,Math.min(255,v));return "#"+((1<<24)+(c(r)<<16)+(c(g)<<8)+c(b)).toString(16).slice(1)}
+
+/* ---------- stone swatches (generated, no image files) ---------- */
+function swatch(style,color,seed,W=200,H=150){
+  const r=rng(seed);
+  let s=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid slice" aria-hidden="true">`;
+  s+=`<rect width="${W}" height="${H}" fill="${color}"/>`;
+  const grain=(o=.2)=>`<rect width="${W}" height="${H}" filter="url(#grain)" opacity="${o}" style="mix-blend-mode:multiply"/>`;
+  if(style==="travertine"||style==="coping"){
+    for(let i=0;i<3;i++){s+=`<rect y="${(r()*H).toFixed(1)}" width="${W}" height="${(1+r()*3).toFixed(1)}" fill="rgba(90,68,40,.10)"/>`}
+    for(let i=0;i<Math.round(W*H/1100);i++){s+=`<ellipse cx="${(r()*W).toFixed(1)}" cy="${(r()*H).toFixed(1)}" rx="${(W/100+r()*W/28).toFixed(1)}" ry="${(.6+r()*1.3).toFixed(1)}" fill="rgba(70,52,30,${(.14+r()*.2).toFixed(2)})"/>`}
+    s+=grain();
+  }else if(style==="marble"){
+    for(let i=0;i<4;i++){
+      const x=()=> (r()*W).toFixed(1), y=()=> (r()*H).toFixed(1);
+      s+=`<path d="M${x()} 0 C${x()} ${(H*.3).toFixed(0)} ${x()} ${(H*.65).toFixed(0)} ${x()} ${H}" fill="none" stroke="rgba(80,88,94,${(.16+r()*.2).toFixed(2)})" stroke-width="${(.6+r()*1.8).toFixed(1)}"/>`;
+    }
+    s+=`<path d="M0 ${(r()*H).toFixed(0)} C${W*.3} ${(r()*H).toFixed(0)} ${W*.6} ${(r()*H).toFixed(0)} ${W} ${(r()*H).toFixed(0)}" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="2"/>`;
+    s+=grain(.16);
+  }else if(style==="porcelain"){
+    for(let i=0;i<70;i++){s+=`<circle cx="${(r()*W).toFixed(1)}" cy="${(r()*H).toFixed(1)}" r="${(.4+r()*1.1).toFixed(1)}" fill="${r()>.5?'rgba(255,255,255,.35)':'rgba(40,40,40,.18)'}"/>`}
+    s+=grain(.14);
+  }else if(style==="wood"){
+    const rows=6,ph=H/rows;
+    for(let i=0;i<rows;i++){
+      const c=shade(color,Math.round((r()-.5)*40));
+      s+=`<rect y="${(i*ph).toFixed(1)}" width="${W}" height="${(ph-1.5).toFixed(1)}" fill="${c}"/>`;
+      for(let k=0;k<5;k++){const gy=(i*ph+r()*ph).toFixed(1);s+=`<path d="M0 ${gy} C${W*.3} ${(+gy+(r()-.5)*4).toFixed(1)} ${W*.7} ${(+gy+(r()-.5)*4).toFixed(1)} ${W} ${gy}" fill="none" stroke="rgba(50,32,16,.22)" stroke-width=".7"/>`}
+      s+=`<line x1="${(r()*W).toFixed(0)}" x2="${(r()*W).toFixed(0)}" y1="${(i*ph).toFixed(1)}" y2="${((i+1)*ph).toFixed(1)}" stroke="rgba(30,20,10,.5)" stroke-width="1"/>`;
+    }
+    s+=grain(.1);
+  }else if(style==="glass"){
+    const n=10,cw=W/n,rows=Math.ceil(H/cw);
+    const tones=["#1e8fa3","#2fa6b8","#54bccb","#7cd0da","#1a7a92","#3aa9bf"];
+    for(let y=0;y<rows;y++)for(let x=0;x<n;x++){s+=`<rect x="${(x*cw+.8).toFixed(1)}" y="${(y*cw+.8).toFixed(1)}" width="${(cw-1.6).toFixed(1)}" height="${(cw-1.6).toFixed(1)}" rx="1.5" fill="${tones[Math.floor(r()*tones.length)]}"/><rect x="${(x*cw+.8).toFixed(1)}" y="${(y*cw+.8).toFixed(1)}" width="${(cw-1.6).toFixed(1)}" height="${((cw-1.6)/2).toFixed(1)}" rx="1.5" fill="rgba(255,255,255,.18)"/>`}
+  }else if(style==="ledger"){
+    let y=0;
+    while(y<H){const h=16+r()*14;let x=-r()*30;while(x<W){const w=40+r()*50;s+=`<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${(w-2).toFixed(1)}" height="${(h-2).toFixed(1)}" fill="${shade(color,Math.round((r()-.5)*44))}"/>`;x+=w}y+=h}
+    s+=grain(.3);
+  }else if(style==="strip"){
+    s+=`<rect y="${H*.36}" width="${W}" height="${H*.28}" fill="${shade(color,18)}"/><rect y="${H*.36}" width="${W}" height="${H*.28}" fill="url(#bull)"/>`;
+    s+=grain(.2);
+  }
+  if(style==="coping"){s+=`<rect width="${W}" height="${H*.24}" fill="url(#bull)"/><rect y="${H*.24}" width="${W}" height="1.5" fill="rgba(0,0,0,.18)"/>`}
+  return s+`</svg>`;
+}
+document.querySelectorAll("[data-sw]").forEach(el=>{
+  const [st,c,sd]=el.dataset.sw.split("|");
+  el.innerHTML=swatch(st,c,+sd,400,420);
+});
+
+/* ---------- hero: French-pattern pavers, laid on load ---------- */
+(function(){
+  const cols=46,rows=25,cell=36,r=rng(7);
+  const occ=new Uint8Array(cols*rows);
+  const sizes=[[2,2],[2,2],[2,2],[2,3],[3,2],[3,3],[1,2],[2,1],[2,2],[2,3]];
+  const tones=["#d8c9ac","#cfbf9f","#e0d3ba","#c7b592","#d3c3a4","#bfae8c","#dccfb5","#c9c4b8","#b9b5a9","#d5c19a"];
+  const fits=(x,y,w,h)=>{if(x+w>cols||y+h>rows)return false;for(let j=0;j<h;j++)for(let i=0;i<w;i++)if(occ[(y+j)*cols+x+i])return false;return true};
+  let out="";
+  for(let y=0;y<rows;y++)for(let x=0;x<cols;x++){
+    if(occ[y*cols+x])continue;
+    let pick=[1,1];
+    const order=sizes.map(v=>[r(),v]).sort((a,b)=>a[0]-b[0]).map(v=>v[1]);
+    for(const sz of order){if(fits(x,y,sz[0],sz[1])){pick=sz;break}}
+    for(let j=0;j<pick[1];j++)for(let i=0;i<pick[0];i++)occ[(y+j)*cols+x+i]=1;
+    const px=x*cell+2,py=y*cell+2,w=pick[0]*cell-4,h=pick[1]*cell-4;
+    let pits="";
+    for(let k=0;k<3;k++){pits+=`<ellipse cx="${(px+r()*w).toFixed(0)}" cy="${(py+r()*h).toFixed(0)}" rx="${(2+r()*7).toFixed(0)}" ry="1.2" fill="rgba(70,52,30,.22)"/>`}
+    const d=(x/cols*1.1+y/rows*.5+r()*.35).toFixed(2);
+    out+=`<g class="s" style="animation-delay:${d}s"><rect x="${px}" y="${py}" width="${w}" height="${h}" rx="4" fill="${tones[Math.floor(r()*tones.length)]}"/>${pits}</g>`;
+  }
+  $("#field").innerHTML=`<svg viewBox="0 0 ${cols*cell} ${rows*cell}" preserveAspectRatio="xMidYMid slice"><rect width="100%" height="100%" fill="#3a362f"/>${out}<rect width="100%" height="100%" filter="url(#grain)" opacity=".22" style="mix-blend-mode:multiply"/></svg>`;
+})();
+
+/* ---------- products ---------- */
+// [name, type, materials, finish, swatch style, colour]
+const PRODUCTS=[
+ ["Ivory Travertine Tumbled Paver","Pavers",["Travertine"],"Tumbled","travertine","#e0d3b6"],
+ ["Ivory Cream Travertine Pavers","Pavers",["Travertine"],"Tumbled","travertine","#e6d9be"],
+ ["Ivory Second Grade Tumbled Travertine Pavers","Pavers",["Travertine"],"Tumbled","travertine","#d7c8a8"],
+ ["Silver Travertine Tumbled Paver","Pavers",["Travertine"],"Tumbled","travertine","#bcb8ad"],
+ ["Alaska Silver Travertine Tumbled Pavers","Pavers",["Travertine"],"Tumbled","travertine","#b3b0a8"],
+ ["Silver Latte Tumbled Paver","Pavers",["Travertine"],"Tumbled","travertine","#c9bfae"],
+ ["Tuscany Tumbled Travertine Pavers","Pavers",["Travertine"],"Tumbled","travertine","#cdb794"],
+ ["Walnut Travertine Tumbled Paver","Pavers",["Travertine"],"Tumbled","travertine","#a98763"],
+ ["Noce Travertine Tumbled Pavers","Pavers",["Travertine"],"Tumbled","travertine","#b89c78"],
+ ["Autumn Blend Travertine Tumbled Paver","Pavers",["Travertine"],"Tumbled","travertine","#c4a882"],
+ ["Country Classic Travertine Tumbled Paver","Pavers",["Travertine"],"Tumbled","travertine","#cbb28a"],
+ ["Leonardo Travertine Tumbled Pavers","Pavers",["Travertine"],"Tumbled","travertine","#d0bd9b"],
+ ["Malibu Travertine Tumbled Paver","Pavers",["Travertine"],"Tumbled","travertine","#d9c5a0"],
+ ["Medium River Travertine Pavers","Pavers",["Travertine"],"Natural","travertine","#bfae90"],
+ ["Cappadocia Tumbled Pavers","Pavers",["Travertine"],"Tumbled","travertine","#c9b28d"],
+ ["Patara Vein Cut Tumbled Paver","Pavers",["Travertine"],"Vein cut, tumbled","travertine","#cdbea2"],
+ ["Tahoe Tumbled Marble Pavers","Pavers",["Marble"],"Tumbled","marble","#c4c2bb"],
+ ["Tahoe Leather Marble Pavers","Pavers",["Marble"],"Leathered","marble","#bfbdb6"],
+ ["Royal Leather Marble Pavers","Pavers",["Marble"],"Leathered","marble","#cfcbc0"],
+ ["Gris De Soil Leather Marble Pavers","Pavers",["Marble"],"Leathered","marble","#a9a7a2"],
+ ["Platinum River Leather Marble Pavers","Pavers",["Marble"],"Leathered","marble","#b8b8b6"],
+ ["Silver Sky Leather Marble Pavers","Pavers",["Marble"],"Leathered","marble","#b1b5b5"],
+ ["Ice White Leather Marble","Pavers",["Marble"],"Leathered","marble","#e6e6e2"],
+ ["Shell Stone Tumbled Paver","Pavers",["Marble"],"Tumbled","marble","#d9d3c4"],
+ ["Venire French Pattern Marble Tumbled Paver","Pavers",["Marble"],"Tumbled, French pattern","marble","#d3cfc2"],
+ ["Porcelain Pavers","Pavers",["Porcelain"],"Porcelain","porcelain","#c2c0ba"],
+ ["Patara 16x32 Vein Cut Travertine Tile","Tiles",["Travertine"],"Honed and filled","travertine","#cfc0a4"],
+ ["French Pattern Travertine Tiles","Tiles",["Travertine"],"Straight edge","travertine","#d2c4a8"],
+ ["Bianco Venato Marble Tiles","Tiles",["Marble"],"Marble tile","marble","#e8e6e1"],
+ ["24x24 Porcelain Tile","Tiles",["Porcelain"],"Porcelain","porcelain","#b9b7b1"],
+ ["Wood-look Porcelain","Tiles",["Porcelain"],"Plank","wood","#a5835f"],
+ ["Bullnose Coping 1.25 in","Copings",["Travertine","Marble"],"Custom bullnose","coping","#d6c8ab"],
+ ["Bullnose Coping 2 in","Copings",["Travertine","Marble"],"Custom bullnose","coping","#cfc0a2"],
+ ["4 in Bullnose Coping","Copings",["Travertine","Marble"],"Bullnose","coping","#d9cdb3"],
+ ["Remodel Copings","Copings",["Travertine","Marble"],"For pool remodels","coping","#c8bda6"],
+ ["Ledger Panel, Split Face","Decoratives",["Natural stone"],"Split face","ledger","#b9ab92"],
+ ["Mosaics","Decoratives",["Natural stone"],"Mosaic","ledger","#c9baa0"],
+ ["Glass Mosaics","Decoratives",["Glass"],"Waterline tile","glass","#2fa6b8"],
+ ["Pencil Border","Decoratives",["Natural stone"],"Trim","strip","#cdbe9f"],
+ ["Chair Rail, Ogee","Decoratives",["Natural stone"],"Ogee profile","strip","#d3c6aa"]
+];
+const CATS=["All","Pavers","Tiles","Copings","Decoratives"];
+const MATS=["All","Travertine","Marble","Porcelain"];
+let cat="All",mat="All";
+const quote=new Set();
+
+function chipRow(el,list,get,set){
+  list.forEach(v=>{
+    const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=v;b.dataset.v=v;
+    b.addEventListener("click",()=>{set(v);drawChips();drawGrid()});
+    el.appendChild(b);
+  });
+}
+function drawChips(){
+  document.querySelectorAll("#catChips .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===cat));
+  document.querySelectorAll("#matChips .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===mat));
+}
+chipRow($("#catChips"),CATS,()=>cat,v=>cat=v);
+chipRow($("#matChips"),MATS,()=>mat,v=>mat=v);
+
+function drawGrid(){
+  const list=PRODUCTS.filter(p=>(cat==="All"||p[1]===cat)&&(mat==="All"||p[2].includes(mat)));
+  $("#count").textContent=`Showing ${list.length} of ${PRODUCTS.length} products`;
+  $("#grid").innerHTML=list.map(p=>{
+    const on=quote.has(p[0]);
+    return `<article class="card"><div class="sw">${swatch(p[4],p[5],hash(p[0]))}</div>
+      <div class="meta"><h3>${p[0]}</h3><p>${p[2].join(" and ")}, ${p[3].toLowerCase()}</p></div>
+      <button class="add" type="button" data-name="${p[0].replace(/"/g,"&quot;")}" aria-pressed="${on}">${on?"On your quote list":"Add to quote"}</button></article>`;
+  }).join("");
+}
+$("#grid").addEventListener("click",e=>{
+  const b=e.target.closest(".add");if(!b)return;
+  const n=b.dataset.name;
+  quote.has(n)?quote.delete(n):quote.add(n);
+  b.setAttribute("aria-pressed",quote.has(n));
+  b.textContent=quote.has(n)?"On your quote list":"Add to quote";
+  drawQuote();
+});
+document.querySelectorAll("[data-jump]").forEach(a=>a.addEventListener("click",()=>{mat=a.dataset.jump;cat="All";drawChips();drawGrid()}));
+document.querySelectorAll("[data-cat]").forEach(a=>a.addEventListener("click",()=>{cat=a.dataset.cat;mat="All";drawChips();drawGrid()}));
+
+function drawQuote(){
+  const q=[...quote];
+  $("#qlist").innerHTML=q.length?q.map(n=>`<span class="qchip">${n}<button type="button" aria-label="Remove ${n}" data-rm="${n.replace(/"/g,"&quot;")}">&times;</button></span>`).join(""):`<span class="empty">No products added yet.</span>`;
+  const bar=$("#qbar");
+  bar.textContent=`Quote list: ${q.length} ${q.length===1?"item":"items"}. Review and send`;
+  bar.classList.toggle("show",q.length>0);
+}
+$("#qlist").addEventListener("click",e=>{
+  const b=e.target.closest("[data-rm]");if(!b)return;
+  quote.delete(b.dataset.rm);drawQuote();drawGrid();
+});
+drawChips();drawGrid();drawQuote();
+
+/* hide floating bar while the quote section is on screen */
+new IntersectionObserver(es=>{es.forEach(en=>{if(en.isIntersecting)$("#qbar").style.visibility="hidden";else $("#qbar").style.visibility="visible"})},{threshold:.15}).observe($("#quote"));
+
+/* ---------- bullnose explorer ---------- */
+const EDGES={
+  std:{label:"Standard bullnose",text:"The classic rounded pool edge: a full curve on the exposed side of the paver, which is comfortable underfoot and is what most pool copings use."},
+  eased:{label:"Eased (modern) edge",text:"A softened square edge with only a slight rounding. It keeps a clean, contemporary line along the pool or step."},
+  multi:{label:"Double or triple side",text:"Rounded on two or three sides of one piece, so steps, corners, pool ends and spa edges finish cleanly without a cut face showing."}
+};
+let edge="std",thick=1.25,sides=2;
+function seg(el,items,isOn,onPick){
+  items.forEach(([v,l])=>{
+    const b=document.createElement("button");b.type="button";b.textContent=l;b.dataset.v=v;
+    b.addEventListener("click",()=>{onPick(v);drawEdge()});el.appendChild(b);
+  });
+}
+seg($("#edgeSeg"),Object.entries(EDGES).map(([k,v])=>[k,v.label]),null,v=>edge=v);
+seg($("#thickSeg"),[[1.25,'1.25"'],[2,'2"']],null,v=>thick=+v);
+seg($("#sideSeg"),[[2,"Double"],[3,"Triple"]],null,v=>sides=+v);
+function drawEdge(){
+  document.querySelectorAll("#edgeSeg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===edge));
+  document.querySelectorAll("#thickSeg button").forEach(b=>b.setAttribute("aria-pressed",+b.dataset.v===thick));
+  document.querySelectorAll("#sideSeg button").forEach(b=>b.setAttribute("aria-pressed",+b.dataset.v===sides));
+  $("#sideSeg").hidden=edge!=="multi";
+  $("#edgeText").textContent=EDGES[edge].text;
+
+  const h=thick*44,y0=(150-h)/2,x0=44,w=200;
+  const r=edge==="eased"?7:h/2, rl=edge==="multi"?h/2:0;
+  const arc=(rr,x,y)=>rr?`A${rr} ${rr} 0 0 1 ${x} ${y}`:`L${x} ${y}`;
+  const d=`M${x0+rl} ${y0} H${x0+w-r} ${arc(r,x0+w,y0+r)} V${y0+h-r} ${arc(r,x0+w-r,y0+h)} H${x0+rl} ${arc(rl,x0,y0+h-rl)} V${y0+rl} ${arc(rl,x0+rl,y0)} Z`;
+  const side=`<figure><svg viewBox="0 0 280 190" role="img" aria-label="Cross section of a ${thick} inch paver with ${EDGES[edge].label.toLowerCase()}">
+    <path d="${d}" fill="#d6c5a3"/><path d="${d}" fill="url(#bull)"/>
+    <path d="${d}" filter="url(#grain)" opacity=".18" style="mix-blend-mode:multiply"/>
+    <path d="${d}" fill="none" stroke="#7B5A40" stroke-width="1.2"/>
+    <line x1="24" x2="24" y1="${y0}" y2="${y0+h}" stroke="#1B7C8A" stroke-width="2"/>
+    <line x1="18" x2="30" y1="${y0}" y2="${y0}" stroke="#1B7C8A" stroke-width="2"/>
+    <line x1="18" x2="30" y1="${y0+h}" y2="${y0+h}" stroke="#1B7C8A" stroke-width="2"/>
+    <text x="${x0+w/2}" y="${y0+h+30}" text-anchor="middle" font-family="Figtree,sans-serif" font-size="14" fill="#1B2422">${thick}" thick</text></svg>
+    <figcaption>Side view</figcaption></figure>`;
+  const on=(name)=>{
+    const active=edge==="multi"?(sides===2?["r","b"]:["r","b","l"]):["r"];
+    return active.includes(name);
+  };
+  const ln=(n,x1,y1,x2,y2)=>`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${on(n)?'#1B7C8A':'#8b8577'}" stroke-width="${on(n)?(edge==='eased'?5:10):1.5}" stroke-linecap="round"/>`;
+  const top=`<figure><svg viewBox="0 0 200 190" role="img" aria-label="Top view showing which edges are shaped">
+    <rect x="30" y="40" width="140" height="100" fill="#d6c5a3"/>
+    <rect x="30" y="40" width="140" height="100" filter="url(#grain)" opacity=".18" style="mix-blend-mode:multiply"/>
+    ${ln("r",170,40,170,140)}${ln("b",30,140,170,140)}${ln("l",30,40,30,140)}${ln("t",30,40,170,40)}
+    <text x="100" y="170" text-anchor="middle" font-family="Figtree,sans-serif" font-size="13" fill="#1B2422">Teal edges are shaped</text></svg>
+    <figcaption>Top view</figcaption></figure>`;
+  $("#stage").innerHTML=side+top;
+}
+drawEdge();
+
+/* ---------- estimator ---------- */
+function estimate(){
+  const a=Math.max(0,+$("#area").value||0), sq=+$("#size").value, w=+$("#waste").value;
+  const total=Math.ceil(a*(1+w));
+  const pcs=Math.ceil(total/sq);
+  $("#estArea").textContent=`${total.toLocaleString()} sq ft`;
+  const label=$("#size").selectedOptions[0].textContent;
+  $("#estPieces").textContent=`About ${pcs.toLocaleString()} pieces of ${label}.`;
+  return total;
+}
+["area","size","waste"].forEach(id=>$("#"+id).addEventListener("input",estimate));
+estimate();
+$("#useEst").addEventListener("click",()=>{
+  $("#qArea").value=$("#area").value;
+  const n=$("#qNotes");const t=`Estimator: ${$("#estArea").textContent}, ${$("#estPieces").textContent}`;
+  if(!n.value.includes("Estimator:"))n.value=(n.value?n.value+"\n":"")+t;
+  location.hash="#quote";
+});
+
+/* ---------- quote form ---------- */
+$("#quoteForm").addEventListener("submit",async e=>{
+  e.preventDefault();
+  const name=$("#qName").value.trim(),phone=$("#qPhone").value.trim();
+  $("#qError").hidden=!!(name&&phone);
+  if(!(name&&phone)){(name?$("#qPhone"):$("#qName")).focus();return}
+  const data={
+    name,phone,email:$("#qEmail").value.trim(),delivery:$("#qZip").value.trim(),
+    project:$("#qType").value,area:$("#qArea").value,notes:$("#qNotes").value.trim(),products:[...quote]
+  };
+  const text=[
+    "Quote request for Bema Stone","",
+    `Name: ${data.name}`,`Phone: ${data.phone}`,data.email&&`Email: ${data.email}`,data.delivery&&`Delivery: ${data.delivery}`,
+    `Project: ${data.project}`,data.area&&`Area: ${data.area} sq ft`,
+    "",`Products: ${data.products.length?data.products.join("; "):"none selected yet"}`,
+    data.notes&&`\nNotes: ${data.notes}`
+  ].filter(v=>v!==""&&v!==false&&v!==undefined).join("\n");
+  $("#summary").value=text;
+  let sent=false;
+  if(SUBMIT_ENDPOINT){
+    try{const res=await fetch(SUBMIT_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(data)});sent=res.ok}catch(_){}
+  }
+  $("#doneTitle").textContent=sent?"Request sent":"Your request is ready";
+  $("#doneMsg").textContent=sent?"A specialist will call you soon. A copy of your request is below.":"Copy this request and send it to our team, or call us and read it out. It has everything a specialist needs.";
+  $("#quoteForm").style.display="none";
+  const d=$("#done");d.classList.add("show");d.focus();
+});
+$("#copyBtn").addEventListener("click",async()=>{
+  const b=$("#copyBtn");
+  try{await navigator.clipboard.writeText($("#summary").value);b.textContent="Copied"}
+  catch(_){$("#summary").select();b.textContent="Press Ctrl+C to copy"}
+  setTimeout(()=>b.textContent="Copy request",2200);
+});
+
+/* ---------- mobile menu ---------- */
+$("#menuBtn").addEventListener("click",()=>{
+  const nav=$("#mainNav"),o=nav.classList.toggle("open");
+  $("#menuBtn").setAttribute("aria-expanded",o);
+});
+document.querySelectorAll("#mainNav a").forEach(a=>a.addEventListener("click",()=>{$("#mainNav").classList.remove("open");$("#menuBtn").setAttribute("aria-expanded",false)}));
+</script>
+</body>
+</html>
